@@ -1,0 +1,2617 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Terms of Service</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="../assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+	<!-- Sidebar -->
+	<section id="sidebar">
+		<div class="inner">
+			<nav>
+				<ul>
+					<li><a href="https://bcono.my/">Bconomy</a></li>
+					<li><a href="https://bcono.my/#gallery">Gallery</a></li>
+					<li><a href="https://bcono.my/#two">Features</a></li>
+					<li><a href="https://bcono.my/#perks">Perks</a></li>
+					<li><a href="https://bcono.my/#three">Support</a></li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+	<!-- Wrapper -->
+	<div id="wrapper">
+		<!-- Intro -->
+		<div class="inner">
+
+		</div>
+		<section id="cmds" class="wrapper style1 fade-up">
+			<div class="row gtr-uniform">
+				<h1><img src="../hqlogo.png" height="80"
+						style="position:relative; right: -22px; top: 22px" />&nbsp;&nbsp;&nbsp;Bconomy Commands</h1>
+			</div>
+			<div class="row gtr-uniform">
+				<div class="col-6 col-12-xsmall">
+					<input type="text" id="searchInput" onkeyup="searchCmds()" placeholder="Search for a command..."
+						style="position:relative; left: 67px; top: 20px;" />
+				</div>
+			</div>
+			<div class="inner">
+				<h2 style="font-size:29px;"><code>/achievements view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View earned achievements</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>page</td>
+								<td>Page to view</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>user</td>
+								<td>User's achievements to view</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/achievements all</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View all achievements</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>page</td>
+								<td>Page to view</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/balance</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Check your own or another
+						user's
+						balance</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>user</td>
+								<td>ID or user to check</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/bank view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View bank balance and interest
+						rate</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/bank deposit</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Deposit money into your
+						bank</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>amount</td>
+								<td>Amount of currency</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/bank withdraw</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Withdraw money from your
+						bank</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>amount</td>
+								<td>Amount of currency</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/bet</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Gamble money with 48/52
+						odds</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>amount</td>
+								<td>Amount of money</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/buddy set</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Change your buddy</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>petid</td>
+								<td>ID of your pet</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/buddy levelup</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Increase your buddy's level</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/buddy feed</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Feed your buddy items</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Item to feed</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount to feed</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/buddy give</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Give your buddy an item</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Item to give</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/buddy changename</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Change buddy's name</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>name</td>
+								<td>Buddy's new name</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/claim</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Claim available rewards</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/collections view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>See collections</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>user</td>
+								<td>User to check</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>page</td>
+								<td>Page of collection</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/collections submit</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Add item to collection</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Item to add</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount to add</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/cooldowns</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Check your action
+						cooldowns.</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/custom rank</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Set custom rank title</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>rank</td>
+								<td>Custom rank</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/custom emoji</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Set custom rank emoji</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>emoji</td>
+								<td>Custom emoji</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/custom color</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Set custom embed color</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>color</td>
+								<td>Custom color</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/custom banner</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Set custom emoji banner</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>emoji</td>
+								<td>Custom emoji</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/custom tagline</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Set custom tagline</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>tagline</td>
+								<td>Custom tagline</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/custom factionbanner</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Set custom faction banner</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>emoji</td>
+								<td>Custom emoji</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/custom buddyemoji</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Set custom buddy emoji</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>emoji</td>
+								<td>Custom emoji</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/events</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View running events</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/explore</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Go exploring to locate
+						items.</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/faction view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View faction information</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>id</td>
+								<td>ID of faction or user</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/faction vault</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Deposit or withdraw from
+						vault</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>action</td>
+								<td>Deposit or withdraw</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount of money</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/faction warchest</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Deposit or withdraw from
+						warchest</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>action</td>
+								<td>Deposit or withdraw</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>item</td>
+								<td>Item name</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount of iten</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/faction members</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View your faction's members</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>page</td>
+								<td>Member page</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/faction buyunits</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Buy a faction unit</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>unit</td>
+								<td>Unit to buy</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount to buy</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/faction expedition</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Manage expeditions</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/faction invite</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Invite a user to faction</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>user</td>
+								<td>User to invite</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/faction kick</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Remove user from faction</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>user</td>
+								<td>User to be kicked</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/faction promote</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Promote a user</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>user</td>
+								<td>User to be promoted</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/faction demote</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Demote a user</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>user</td>
+								<td>User to be demoted</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/faction levelup</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Increase faction level</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/faction changename</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Deposit or withdraw from
+						vault</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>name</td>
+								<td>Faction name</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/faction vaultpay</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Pay a user from the vault</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>user</td>
+								<td>User to pay</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount to pay</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/faction create</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Create a new faction</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>name</td>
+								<td>Name of faction</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/faction leave</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Leave your faction</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/farm view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Visit your farm</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/farm water</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Water your crops</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/farm harvest</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Harvest your crops</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/farm plant</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Plant a crop</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>crop</td>
+								<td>Crop to plant</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/farm uproot</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Remove a growing crop</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>plot</td>
+								<td>Plot to uproot</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/farm buyplot</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Purchase a new plot</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/fish</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Go exploring to locate
+						items.</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/generators view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View your generators</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/generators shop</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Buy or sell generators</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>action</td>
+								<td>Buy or sell</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>gen</td>
+								<td>Generator to buy</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/generators upgrades</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View active upgrades</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/give money</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Send money to another user</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>user</td>
+								<td>Recipient</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount to send</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/give item</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Send item to another user</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>user</td>
+								<td>Recipient</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>item</td>
+								<td>Item to send</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount to send</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/giveaway claim</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Claim share of currently
+						running
+						giveaway</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/giveaway view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View giveaway balance and
+						info</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/giveaway start</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Start giveaway in server</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>time</td>
+								<td>Duration in hours</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount to give away</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>public</td>
+								<td>Publicly broadcast giveaway (cannot cancel)</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/giveaway donate</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Donate to this server's
+						giveaway
+						balance</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>amount</td>
+								<td>Amount to donate</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/giveaway cancel</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Cancel giveaway in progress (<5
+							min of start)</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/giveaway end</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>End giveaway and immediately
+						pay
+						out</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/guess</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Guess a number</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>number</td>
+								<td>Integer 1-100</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/help</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Shows gameplay help and
+						information</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>page</td>
+								<td>Help page for topic</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/horse switch</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Switch</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>userold</td>
+								<td>User Old</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>usernew</td>
+								<td>User New</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/hunt</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Go hunting to find items</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/inject</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>money</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>amount</td>
+								<td>Amount of currency</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/inventory view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View inventory of a user</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>page</td>
+								<td>Page of inventory</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>user</td>
+								<td>User to check</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/inventory info</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View item info and stats</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Item to view</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/inventory craft</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Craft an item</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Item to craft</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount to craft</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/inventory use</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Use an inventory item</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Item to be used</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount of item to use</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/inventory equip</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Equip an inventory item</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Item to be used</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/inventory sell</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Sell an item to the bot</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Item to sell</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount of item</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/inventory melt</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Use the Forge to melt items</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Item to melt</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount of item to melt</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/inventory sellall</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Sell entire inventory to
+						bot</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>lootonly</td>
+								<td>Sell loot only?</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/inventory sort</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Change inventory sorting
+						method</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>method</td>
+								<td>Sorting method</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/inventory unequip</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Unequip your equipped item</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/inventory calc</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Calculate crafting
+						materials</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Page of inventory</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount of item</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/leaderboard money</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View users ranked by
+						balance</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>type</td>
+								<td>Leaderboard type</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>page</td>
+								<td>Page to view</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/leaderboard rank</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View users ranked by level</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>type</td>
+								<td>Leaderboard type</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>page</td>
+								<td>Page to view</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/leaderboard faction</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View factions ranked by
+						level</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>type</td>
+								<td>Leaderboard type</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>page</td>
+								<td>Page to view</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/leaderboard pets</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View pets ranked by level</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>type</td>
+								<td>Leaderboard type</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>page</td>
+								<td>Page to view</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/loot</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View drop rates of items</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/lottery view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View lottery info</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/lottery buy</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Buy lottery tickets</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>amount</td>
+								<td>Amount of tickets</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/market all</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View all markets</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>page</td>
+								<td>Market page</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/market view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View market for an item</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Item to view market of</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/market buy</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Buy an item from the market</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Item to purchase</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount to purchase</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/market list</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>List an item on the market</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>item</td>
+								<td>Item to list</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>price</td>
+								<td>Price to list at</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount to purchase</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/market listings</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View your active listings</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/market claim</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Claim your market earnings</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/market delist</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Delist an active listing</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>listing</td>
+								<td>ID of listing</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/mine</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Go mining to find items</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/pets all</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>See all owned pets</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/pets view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View a pet's profile</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>petid</td>
+								<td>ID of pet</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/pets breed</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Breed two pets to make an
+						egg</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>pet1</td>
+								<td>ID of pet</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>pet2</td>
+								<td>ID of pet</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/pets release</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Release a pet into the wild</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>petid</td>
+								<td>ID of pet</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/pets transfer</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Give another user ownership of
+						your
+						pet</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>petid</td>
+								<td>ID of pet</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>user</td>
+								<td>Pet's new owner</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/prestige view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View prestige information</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/prestige tiers</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View prestige information</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/prestige perks</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View prestige perks</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/prestige buyperk</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View prestige perks</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>perk</td>
+								<td>Name of perk</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/prestige transmute</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Convert money to PP</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>amount</td>
+								<td>Amount to transmute</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/ranks toggle</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Toggle gendered rank
+						display</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/ranks view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View upcoming ranks</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/ranks all</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View all ranks</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>page</td>
+								<td>Rank page</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/ranks tiers</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View prestige tiers</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/rankup</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Increase your ingame rank</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/rob</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Rob a vulnerable user</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>user</td>
+								<td>User to rob</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/rps</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Play Rock Paper Scissors</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>choice</td>
+								<td>RPS choice</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Money to wager</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>user</td>
+								<td>User to play against</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/server register</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Register current server</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/server setinvite</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Set server invite</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>invite</td>
+								<td>Server invite</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/server setcurrency</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Set custom currency emoji</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>emoji</td>
+								<td>Custom emoji</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/stats</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Check your own or another
+						user's
+						stats</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>user</td>
+								<td>User to check</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/status</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Check the bot's status.</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/stocks info</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View current market prices and
+						holdings</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/stocks buy</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Buy stocks with money</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>stock</td>
+								<td>Stock to buy</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Number of stocks</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/stocks sell</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Sell stocks for money</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>stock</td>
+								<td>Stock to sell</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Number of stocks</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/toggleping</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Check the bot's status.</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/trade view</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View current trade</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/trade create</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Create a new trade</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/trade additem</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Add item to current trade</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>type</td>
+								<td>Give or recieve?</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>item</td>
+								<td>Item to add</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount of item</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/trade addmoney</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Add money to current trade</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>type</td>
+								<td>Give or recieve?</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>amount</td>
+								<td>Amount of money</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/trade removeitem</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Remove item from current
+						trade</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>type</td>
+								<td>Give or recieve?</td>
+								<td>yes</td>
+							</tr>
+							<tr>
+								<td>item</td>
+								<td>Item to add</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/trade removemoney</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Remove money from current
+						trade</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>type</td>
+								<td>Give or recieve?</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/trade send</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Send current trade to a
+						user</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>user</td>
+								<td>User to send to</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/trade cancel</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Cancel current trade</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/tutorial</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Starts the Bconomy interactive
+						tutorial</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/verify</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Donor command</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/vote info</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View voting information and
+						URL</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/vote claim</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Claim reward for voting</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/vote repair</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Repair lost votes</i></p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/vote fakevote</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Fake a vote for testing
+						purposes</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/vote reminders</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Toggle DM vote reminders</i>
+				</p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>state</td>
+								<td>On or off</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/whitelist info</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>View currently whitelisted
+						channels</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/whitelist add</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Add a channel to the
+						whitelist</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>channel</td>
+								<td>Channel</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/whitelist remove</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Withdraw money from your
+						bank</i></p>
+				<div class="table-wrapper">
+					<table>
+						<colgroup>
+							<col span="1" style="width: 20%;">
+							<col span="1" style="width: 50%;">
+							<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+							<tr>
+								<th>Option</th>
+								<th>Description</th>
+								<th>Required?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>channel</td>
+								<td>Channel</td>
+								<td>yes</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<h2 style="font-size:29px;"><code>/whitelist disable</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Disables and clears your
+						whitelist</i>
+				</p>
+				<div></div>
+				<h2 style="font-size:29px;"><code>/work</code></h2>
+				<p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Work a shift to earn money</i>
+				</p>
+				<div></div>
+			</div>
+		</section>
+	</div>
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/jquery.scrollex.min.js"></script>
+	<script src="../assets/js/jquery.scrolly.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+	<script>
+		function searchCmds() {
+			let input = document.getElementById("searchInput");
+			let headers = Array.from(document.getElementsByTagName("h2")).slice(0)
+			let paragraphs = Array.from(document.getElementsByTagName("p")).slice(0)
+			let divs = Array.from(document.getElementsByTagName("div")).slice(7)
+			for (i = 0; i < headers.length; i++) {
+				if (headers[i].outerText.toUpperCase().indexOf(input.value.toUpperCase()) > -1) {
+					headers[i].style.display = "";
+					paragraphs[i].style.display = "";
+					divs[i].style.display = "";
+				} else {
+					headers[i].style.display = "none";
+					paragraphs[i].style.display = "none";
+					divs[i].style.display = "none";
+				}
+			}
+		}
+	</script>
+</body>
+
+</html>
